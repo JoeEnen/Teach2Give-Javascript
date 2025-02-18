@@ -1,0 +1,21 @@
+ # Data Types
+      - The most common datatypes include string, numbers, boolean, null, undefined, bigint an symbol.
+## string
+      - Characters are enclosed in "" or ' '.
+## Numbers 
+      -Can either be integers, decimals or NaN.
+## Boolean
+      -Can either be true or false.
+## Undefined
+      -Is declared but uninitialized variables.
+      eg. let age;
+      console.log (age); //output: Undefined.
+## Null
+      -Uninetentional absence of value.
+      eg. let man=null; // no man yet.
+## Biglnt
+      -for too many numbers beyond what JS can take.
+
+## Checking variable types.
+      -we use the "typeof" operator.
+      eg. console.log(tyepeof age); //here will be displayed the variable.

@@ -1,0 +1,14 @@
+# Including Javascript
+You can add JS to HTML via either rof the following ways:
+1. Internal JS
+2. External JS
+
+## Internal JS
+- In this case, we write JS inside a <script> tag in html.
+## External JS
+-This stores JS in a separate  -js file. The file is later linked to HTMLusing teh <script> tags with a src attribute.
+eg. <script src" app.js"> </script>
+-In this case, you may want to ensure that you put the link near the end of your html to ensure html loads last.
+-Alternatively, ensure you add the (defer) keyword as shown below:
+<script defer src" app.js"> </script>
+-For the above case, you can put the link up near title in html.
